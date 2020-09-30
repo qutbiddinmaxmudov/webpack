@@ -44,6 +44,7 @@ module.exports = {
             template:`${paths.src}/index.pug`,
             filename:`./index.html`
         }),
-        new config.Pug()
+        new config.Pug(),
+        new config.Clean()
     ]
 }
